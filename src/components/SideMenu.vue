@@ -1,18 +1,29 @@
 <template>
-    <div class="sidenav">
-        <router-link  class="sidenav-item" to="/">Перейти к main</router-link>
-        <router-link  class="sidenav-item" to="/">Перейти к main</router-link>
-        <router-link  class="sidenav-item" to="/">Перейти к main</router-link>
-        <router-link  class="sidenav-item" to="/">Перейти к main</router-link>
-        <router-link  class="sidenav-item" to="/">Перейти к main</router-link>
-        <router-link  class="sidenav-item" to="/">Перейти к main</router-link>
-        <router-link  class="sidenav-item" to="/">Перейти к main</router-link>
+    <div class="sidenav d-flex flex-column align-items-start">
+        <a href="javascript:void(0);"
+           v-for="(item, k) in menuItems"
+           class="sidenav-item"
+           :key="k"
+           @click="menuClick(item)"
+        >0{{ item.id }}. {{ item.name }}</a>
     </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
     name: 'SideMenu',
+    computed: mapState({
+        menuItems: state => state.menuItems,
+    }),
+    methods: {
+        menuClick(item) {
+            console.log('000');
+            this.$store.commit('setMenuItem', item.id);
+            this.$router.push(item.funcName);
+        }
+    }
 };
 </script>
 
