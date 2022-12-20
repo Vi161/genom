@@ -24,22 +24,22 @@ export const store = new Vuex.Store({
       {
         id: 3,
         name: 'Применение',
-        funcName: 'solution',
+        funcName: 'applying',
       },
       {
         id: 4,
         name: 'Работа Аналитика',
-        funcName: 'solution',
+        funcName: 'analyst',
       },
       {
         id: 5,
         name: 'Работа Разработчика',
-        funcName: 'solution',
+        funcName: 'developer',
       },
       {
         id: 6,
         name: 'Публикация',
-        funcName: 'solution',
+        funcName: 'publication',
       },
     ],
     activeMenu: 0

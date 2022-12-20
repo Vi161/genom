@@ -19,9 +19,7 @@ export default {
     }),
     methods: {
         menuClick(item) {
-            console.log('000');
             this.$store.commit('setMenuItem', item.id);
-            this.$router.push(item.funcName);
         }
     }
 };

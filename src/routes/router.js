@@ -4,6 +4,10 @@ import VueRouter from 'vue-router'
 const Main = () => import('../components/Main.vue');
 const Page1 = () => import('../components/Pages/Page1.vue')
 const Page2 = () => import('../components/Pages/Page2.vue')
+const Page3 = () => import('../components/Pages/Page3.vue')
+const Page4 = () => import('../components/Pages/Page4.vue')
+const Page5 = () => import('../components/Pages/Page5.vue')
+const Page6 = () => import('../components/Pages/Page6.vue')
 
 Vue.use(VueRouter);
 
@@ -33,6 +37,42 @@ const routes = [
         meta: {
             type: 'page2',
             id: 2
+        }
+    },
+    {
+        name: 'applying',
+        path: '/applying',
+        component: Page3,
+        meta: {
+            type: 'page3',
+            id: 3
+        }
+    },
+    {
+        name: 'analyst',
+        path: '/analyst',
+        component: Page4,
+        meta: {
+            type: 'page4',
+            id: 4
+        }
+    },
+    {
+        name: 'developer',
+        path: '/developer',
+        component: Page5,
+        meta: {
+            type: 'page5',
+            id: 5
+        }
+    },
+    {
+        name: 'publication',
+        path: '/publication',
+        component: Page6,
+        meta: {
+            type: 'page6',
+            id: 6
         }
     },
 ];
