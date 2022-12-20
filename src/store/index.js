@@ -46,7 +46,6 @@ export const store = new Vuex.Store({
   },
   mutations: {
     setMenuItem(state, val) {
-      console.log('111', val);
       state.activeMenu = val;
     }
   },

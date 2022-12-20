@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="dotted">
       <header-view/>
       <main>
           <side-menu/>

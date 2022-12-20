@@ -13,8 +13,8 @@ Vue.use(VueRouter);
 
 const routes = [
     {
-        name: 'Main',
-        path: '/main',
+        name: 'main',
+        path: '/',
         component: Main,
         meta: {
             type: 'page0',

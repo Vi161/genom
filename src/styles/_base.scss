@@ -8,6 +8,7 @@ $success: #67C23A;
 $warning: #E6A23C;
 $danger: #F56C6C;
 $color-main: #fff;
+$color-primary: #00FFFF;
 $background-main: #000;
 $background-success: #E1F3D8;
 $background-warning: #FAECD8;
@@ -306,6 +307,9 @@ a {
 }
 
 .color {
+    &-white {
+        color: #FFF;
+    }
     &-gray {
         color: $gray;
     }
@@ -321,6 +325,9 @@ a {
     &-danger {
         filter: invert(63%) sepia(72%) saturate(1988%) hue-rotate(317deg) brightness(100%) contrast(92%);
         color: $danger;
+    }
+    &-primary {
+        color: $color-primary;
     }
 }
 

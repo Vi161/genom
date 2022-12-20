@@ -1,5 +1,7 @@
 <template>
-    <div>Страница 1</div>
+    <div class="page-content">
+        <h1 class="title-top color-primary">[ Проблема ]</h1>
+    </div>
 </template>
 
 <script>
