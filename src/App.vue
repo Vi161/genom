@@ -1,10 +1,11 @@
 <template>
   <div id="app" class="dotted">
       <header-view/>
-      <main>
-          <side-menu/>
-          <router-view :key="$route.path"></router-view>
-      </main>
+      <div class="background-numbers">
+          <p v-for="(n, k) in 20" :key="k"><span v-if="n<10">0</span>{{n}}</p>
+      </div>
+      <side-menu/>
+      <router-view :key="$route.path"></router-view>
       <footer-view></footer-view>
   </div>
 </template>
