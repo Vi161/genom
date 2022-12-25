@@ -43,7 +43,6 @@ body {
   .title-top {
     font-family: 'IBM Plex Mono Bold';
     font-style: normal;
-    font-weight: 700;
     font-size: 32px;
     margin-top: 54px;
     text-align: left;
@@ -52,7 +51,6 @@ body {
     font-family: 'IBM Plex Mono Bold';
     font-style: normal;
     margin-top: 40px;
-    font-weight: 700;
     font-size: 16px;
     line-height: 150%;
     text-align: left;
@@ -75,5 +73,27 @@ body {
   color: #9F8198;
   p {
     margin-bottom: 21px;
+  }
+}
+
+.page1 {
+  .block2 {
+    margin-top: 70px;
+    &-title {
+      font-family: 'IBM Plex Mono Bold';
+      font-size: 16px;
+    }
+    &-wrap {
+      margin-top: 30px;
+    }
+    .ico-block {
+      p {
+        font-family: 'IBM Plex Mono Bold';
+        font-size: 16px;
+      }
+    }
+  }
+  .ico-block {
+    max-width: 150px;
   }
 }
