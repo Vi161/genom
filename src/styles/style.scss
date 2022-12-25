@@ -29,7 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   overflow: auto;
 }
@@ -38,8 +38,12 @@ body {
   background-size: 80px 80px;
   width:100%;
 }
+.container {
+  height: 900px;
+}
 .page-content {
-  margin-left: 112px;
+  padding-left: 112px;
+  padding-right: 70px;
   .title-top {
     font-family: 'IBM Plex Mono Bold';
     font-style: normal;
@@ -66,7 +70,7 @@ body {
   position: absolute;
   opacity: 0.4;
   left: 52px;
-  top: 134px;
+  top: 104px;
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
@@ -76,6 +80,9 @@ body {
   }
 }
 
+.main-content {
+  width: calc(100% - 260px);
+}
 .page1 {
   .block2 {
     margin-top: 70px;
@@ -84,7 +91,7 @@ body {
       font-size: 16px;
     }
     &-wrap {
-      margin-top: 30px;
+      margin-top: 10px;
     }
     .ico-block {
       p {
@@ -95,5 +102,13 @@ body {
   }
   .ico-block {
     max-width: 150px;
+    &-txt-top {
+      height: 100px;
+      padding-top: 20px;
+    }
+    &-txt-bottom {
+      height: 100px;
+      padding-top: 20px;
+    }
   }
 }

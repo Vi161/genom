@@ -9,35 +9,35 @@
         </div>
         <div class="block2">
             <p class="block2-title uppercase color-primary">Cтандартный упрощенный процесс разработки</p>
-            <div class="block2-wrap d-flex justify-content-between">
+            <div class="block2-wrap d-flex justify-content-between align-items-center">
                 <div class="ico-block">
-                    <p class="uppercase">Бизнес/ государство</p>
+                    <p class="ico-block-txt-top uppercase">Бизнес/ государство</p>
                     <img svg-inline src="@/assets/img/ico1-1.svg" />
-                    <p>Высокоуровневые требования</p>
+                    <p class="ico-block-txt-bottom">Высокоуровневые требования</p>
                 </div>
                 <img svg-inline src="@/assets/img/arrow.svg" />
                 <div class="ico-block">
-                    <p class="uppercase">1.Аналитик</p>
+                    <p class="ico-block-txt-top uppercase">1.Аналитик</p>
                     <img svg-inline src="@/assets/img/ico1-2.svg" />
-                    <p>Функциональные и системные требования</p>
+                    <p class="ico-block-txt-bottom">Функциональные и системные требования</p>
                 </div>
                 <img svg-inline src="@/assets/img/arrow.svg" />
                 <div class="ico-block">
-                    <p class="uppercase">2.Программисты</p>
+                    <p class="ico-block-txt-top uppercase">2.Программисты</p>
                     <img svg-inline src="@/assets/img/ico1-3.svg" />
-                    <p>Разработка</p>
+                    <p class="ico-block-txt-bottom">Разработка</p>
                 </div>
                 <img svg-inline src="@/assets/img/arrow.svg" />
                 <div class="ico-block">
-                    <p class="uppercase">3.Тестировщик</p>
+                    <p class="ico-block-txt-top uppercase">3.Тестировщик</p>
                     <img svg-inline src="@/assets/img/ico1-4.svg" />
-                    <p>Тестирование</p>
+                    <p class="ico-block-txt-bottom">Тестирование</p>
                 </div>
                 <img svg-inline src="@/assets/img/arrow.svg" />
                 <div class="ico-block">
-                    <p class="uppercase">4.Администратор</p>
+                    <p class="ico-block-txt-top uppercase">4.Администратор</p>
                     <img svg-inline src="@/assets/img/ico1-5.svg" />
-                    <p>Релизы и системное администрирование</p>
+                    <p class="ico-block-txt-bottom">Релизы и системное администрирование</p>
                 </div>
             </div>
 
