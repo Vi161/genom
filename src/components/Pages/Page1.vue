@@ -40,7 +40,6 @@
                     <p class="ico-block-txt-bottom">Релизы и системное администрирование</p>
                 </div>
             </div>
-
         </div>
     </div>
 </template>

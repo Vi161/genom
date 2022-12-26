@@ -112,3 +112,150 @@ body {
     }
   }
 }
+
+.page2 {
+  .block2 {
+    margin-top: 60px;
+    width: 1030px;
+    &-wrap {
+      margin-top: 10px;
+    }
+    .ico-block {
+      p {
+        font-family: 'IBM Plex Mono Bold';
+        font-size: 16px;
+      }
+    }
+  }
+  .txt-top {
+    width: 180px;
+    font-family: 'IBM Plex Mono Bold';
+    font-size: 16px;
+  }
+  .top-line {
+    width: 533px;
+    height: 12px;
+    border: 2px solid $color-primary;
+    border-bottom: none;
+  }
+  .ico-block {
+    width: 180px;
+    &-txt-bottom {
+      height: 100px;
+      padding-top: 20px;
+      text-align: center;
+    }
+  }
+  .ico-arrow {
+    padding-top: 44px;
+  }
+  .vertical-dot {
+    width: 4px;
+    height: 123px;
+    background-position:  0 0, 0 0, 100% 0, 0 100%;
+    background-size: 4px 100%;
+    background-repeat: no-repeat;
+    background-image: repeating-linear-gradient(0deg, $color-primary, $color-primary 10px, transparent 10px, transparent 30px);
+    background-position:  0 0, 0 0, 100% 0, 0 100%;
+    background-size: 3px 100%;
+    background-repeat: no-repeat;
+  }
+  .block-bottom {
+    &-txt-wrap {
+      margin-top: 20px;
+    }
+    &-txt {
+      text-align: left;
+      &1 {
+        margin-left: 160px;
+        width: 246px;
+      }
+      &2 {
+        margin-left: 152px;
+        width: 214px;
+      }
+      &3 {
+        margin-left: 52px;
+        width: 170px;
+      }
+    }
+  }
+  .line1 {
+    width: 82px;
+    height: 124px;
+    border-left: 2px solid #00FFFF;
+    transform: rotate(40deg);
+    position: absolute;
+    left: 173px;
+    top: -79px;
+    &:after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: $color-primary;
+      display: block;
+      left: -4px;
+    }
+  }
+  .line2 {
+    width: 82px;
+    height: 68px;
+    border-left: 2px solid $color-primary;
+    position: absolute;
+    left: 143px;
+    top: 4px;
+  }
+  .line3 {
+    width: 82px;
+    height: 144px;
+    border-left: 2px solid $color-primary;
+    transform: rotate(50deg);
+    position: absolute;
+    left: 580px;
+    top: -84px;
+    &:after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: $color-primary;
+      display: block;
+      left: -4px;
+    }
+  }
+  .line4 {
+    width: 82px;
+    height: 68px;
+    border-left: 2px solid $color-primary;
+    position: absolute;
+    left: 540px;
+    top: 4px;
+  }
+  .line5 {
+    width: 82px;
+    height: 100px;
+    border-left: 2px solid #00FFFF;
+    transform: rotate(21deg);
+    position: absolute;
+    left: 818px;
+    top: -78px;
+    &:after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: $color-primary;
+      display: block;
+      left: -4px;
+    }
+  }
+  .line6 {
+    width: 82px;
+    height: 68px;
+    border-left: 2px solid $color-primary;
+    position: absolute;
+    left: 803px;
+    top: 4px;
+  }
+}
