@@ -1,0 +1,25 @@
+<svg width="71" height="79" viewBox="0 0 71 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse rx="4.03237" ry="4.06538" transform="matrix(1 8.81384e-08 8.6713e-08 -1 31.046 74.9346)" fill="#00FFFF"/>
+<ellipse rx="4.03237" ry="4.06538" transform="matrix(-1 -1.75009e-07 -1.74682e-07 1 31.0443 4.06538)" fill="#00FFFF"/>
+<ellipse cx="7.33345" cy="39.7477" rx="7.33345" ry="7.39348" fill="#00FFFF"/>
+<path d="M58.8331 39.7477C58.8331 42.4696 61.0163 44.6412 63.6665 44.6412C66.3168 44.6412 68.5 42.4696 68.5 39.7477C68.5 37.0259 66.3168 34.8542 63.6665 34.8542C61.0163 34.8542 58.8331 37.0259 58.8331 39.7477Z" stroke="white" stroke-width="5"/>
+<ellipse cx="11.6231" cy="24.3005" rx="5.86676" ry="5.91478" fill="#00FFFF"/>
+<ellipse rx="5.86676" ry="5.91478" transform="matrix(-1 0 0 1 50.4672 24.3005)" fill="#00FFFF"/>
+<ellipse cx="11.6231" cy="55.1975" rx="5.86676" ry="5.91478" fill="#00FFFF"/>
+<ellipse rx="5.86676" ry="5.91478" transform="matrix(-1 0 0 1 50.4672 55.1975)" fill="#00FFFF"/>
+<ellipse rx="5.37787" ry="5.42189" transform="matrix(1 8.81384e-08 8.6713e-08 -1 20.5317 66.5332)" fill="#00FFFF"/>
+<ellipse rx="5.37787" ry="5.42189" transform="matrix(-1 -1.76277e-07 -1.73426e-07 1 41.5587 12.4668)" fill="#00FFFF"/>
+<ellipse cx="41.5587" cy="66.5332" rx="5.37787" ry="5.42189" transform="rotate(180 41.5587 66.5332)" fill="#00FFFF"/>
+<ellipse cx="20.5317" cy="12.4668" rx="5.37787" ry="5.42189" fill="#00FFFF"/>
+<path d="M7.19238 39.887H29.7506" stroke="#00FFFF" stroke-width="3"/>
+<path d="M10.0103 55.031L29.7508 55.031" stroke="#00FFFF" stroke-width="3"/>
+<path d="M10.0103 24.5195L29.7508 24.5195" stroke="#00FFFF" stroke-width="3"/>
+<path d="M17.7021 66.5659L29.7469 66.5659" stroke="#00FFFF" stroke-width="3"/>
+<path d="M44.3882 12.4341L32.3434 12.4341" stroke="#00FFFF" stroke-width="3"/>
+<path d="M54.1562 39.887H42.521" stroke="white" stroke-width="3.07743"/>
+<path d="M52.3535 55.031L32.613 55.031" stroke="#00FFFF" stroke-width="3"/>
+<path d="M52.3535 24.5195L32.613 24.5195" stroke="#00FFFF" stroke-width="3"/>
+<path d="M44.6572 66.5659L32.6125 66.5659" stroke="#00FFFF" stroke-width="3"/>
+<path d="M17.4331 12.4341L29.4779 12.4341" stroke="#00FFFF" stroke-width="3"/>
+<path d="M47.2018 44.5048L42.4839 39.7483L47.2018 34.9918" stroke="white" stroke-width="3"/>
+</svg>

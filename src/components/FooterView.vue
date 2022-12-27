@@ -1,16 +1,17 @@
 <template>
     <footer>
         <div class="nav">
-            <a class="color-white"
+            <a class="color-white button-start"
                v-if="activeMenu == 0"
                href="javascript:void(0);" @click="incPage">
                 [ НАЧАТЬ ]</a>
             <template v-else>
-                <a href="javascript:void(0);" @click="decPage">< </a>
+                <a href="javascript:void(0);" @click="decPage"><&nbsp;</a>
                 <span>{{ activeMenu }}</span>
                 <span>/</span>
                 <span>{{ menuItems.length - 1 }}</span>
-                <a href="javascript:void(0);" @click="incPage"> ></a>
+                <a v-if="activeMenu < menuItems.length - 1" href="javascript:void(0);" @click="incPage"> ></a>
+                <span v-else> &nbsp; </span>
             </template>
         </div>
         <div class="d-flex align-items-center">
@@ -58,9 +59,14 @@ export default {
         line-height: 110%;
         text-align: center;
         padding-bottom: 20px;
+        .button-start {
+            display: inline-block;
+            margin-bottom: 100px;
+        }
         .nav {
             margin-bottom: 33px;
             * {
+                font-family: 'IBM Plex Mono Bold';
                 color: $color-primary;
             }
             .color-white {

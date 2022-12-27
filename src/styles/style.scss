@@ -17,9 +17,11 @@
   src : url('../assets/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf');
   font-weight: 700;
 }
+
 body {
   background: radial-gradient(36.29% 81.95% at 5.85% 86.29%, rgba(0, 255, 255, 0.2) 0%, rgba(0, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(82.17% 104.45% at 91.25% 7.78%, rgba(69, 141, 185, 0.5) 0%, rgba(0, 0, 0, 0.5) 48.42%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
 }
+
 #app {
   font-family: 'IBM Plex Mono', monospace;
   font-style: normal;
@@ -33,14 +35,17 @@ body {
   position: relative;
   overflow: auto;
 }
+
 .dotted {
   background-image: -webkit-repeating-radial-gradient(center center, rgba(255,255,255,.2), rgba(255,255,255,.2) 1px, transparent 3px, transparent 100%);
-  background-size: 80px 80px;
+  background-size: 50px 50px;
   width:100%;
 }
+
 .container {
   height: 900px;
 }
+
 .page-content {
   padding-left: 112px;
   padding-right: 70px;
@@ -81,8 +86,9 @@ body {
 }
 
 .main-content {
-  width: calc(100% - 260px);
+  width: calc(100% - 220px);
 }
+
 .page1 {
   .block2 {
     margin-top: 70px;
@@ -101,7 +107,7 @@ body {
     }
   }
   .ico-block {
-    max-width: 150px;
+    max-width: 174px;
     &-txt-top {
       height: 100px;
       padding-top: 20px;
@@ -153,8 +159,6 @@ body {
     width: 4px;
     height: 123px;
     background-position:  0 0, 0 0, 100% 0, 0 100%;
-    background-size: 4px 100%;
-    background-repeat: no-repeat;
     background-image: repeating-linear-gradient(0deg, $color-primary, $color-primary 10px, transparent 10px, transparent 30px);
     background-position:  0 0, 0 0, 100% 0, 0 100%;
     background-size: 3px 100%;
@@ -176,7 +180,7 @@ body {
       }
       &3 {
         margin-left: 52px;
-        width: 170px;
+        width: 174px;
       }
     }
   }
@@ -257,5 +261,93 @@ body {
     position: absolute;
     left: 803px;
     top: 4px;
+  }
+}
+
+.page3 {
+  .title-block {
+    margin-bottom: 43px;
+  }
+  .txt-block {
+    max-width: 370px;
+    p {
+      font-size: 16px;
+      margin-left: 30px;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+  }
+  .block2 {
+    margin-left: 142px;
+  }
+}
+
+.page4 {
+  .block2 {
+    width: 1050px;
+    margin-top: 90px;
+    &-wrap {
+      align-items: inherit;
+    }
+  }
+  .divider {
+    margin-top: 60px;
+  }
+  .ico-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-txt-top {
+      width: 152px ;
+      height: 60px;
+      font-family: 'IBM Plex Mono Bold';
+      font-size: 16px;
+    }
+    .ico-block-imp-wrap {
+      height: 80px;
+    }
+  }
+  .block-line {
+    border: 2px solid $color-primary;
+    border-top: none;
+    height: 12px;
+    margin-top: 40px;
+    &1 {
+      width: 380px;
+    }
+    &2 {
+      margin-left: 78px;
+      width: 639px;
+    }
+  }
+  .block-txt {
+    &-wrap {
+      margin-top: 38px;
+    }
+    text-align: left;
+    font-size: 16px;
+    &1 {
+      width: 364px;
+    }
+    &2 {
+      width: 488px;
+      margin-left: 52px;
+    }
+    &-arrow {
+      font-size: 16px;
+      margin-right: 16px;
+    }
+  }
+}
+.page5 {
+  .block {
+    margin-top: 70px;
+    margin-left: 150px;
+  }
+}
+.page6 {
+  .block {
+    margin-top: 90px;
+    margin-left: 130px;
   }
 }

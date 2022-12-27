@@ -19,7 +19,7 @@
                 <div class="ico-block">
                     <p class="ico-block-txt-top uppercase">1.Аналитик</p>
                     <img svg-inline src="@/assets/img/ico1-2.svg" />
-                    <p class="ico-block-txt-bottom">Функциональные и системные требования</p>
+                    <p class="ico-block-txt-bottom">Функциональные<br> и системные требования</p>
                 </div>
                 <img svg-inline src="@/assets/img/arrow.svg" />
                 <div class="ico-block">

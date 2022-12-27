@@ -17,6 +17,8 @@ export default {
 </script>
 
 <style lang="scss">
+    @import '@/styles/_base.scss';
+
     .main {
         .title1 {
             width: 930px;
@@ -51,12 +53,15 @@ export default {
         }
         .dash-border {
             width: 440px;
-            height: 0px;
+            height: 5px;
             margin-left: 112px;
             margin-top: 61px;
             margin-bottom: 42px;
 
-            border-bottom: 1px dashed #FFFFFF;
+            background-image: none, repeating-linear-gradient(90deg, #fff, #fff 10px, transparent 10px, transparent 16px, #ff0000 16px);
+            background-size: 1px 100%, 100% 1px, 1px 100% , 100% 1px;
+            background-position: 0 0, 0 0, 100% 0, 0 100%;
+            background-repeat: no-repeat;
         }
     }
 </style>

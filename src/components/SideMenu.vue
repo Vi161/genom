@@ -2,11 +2,11 @@
     <div class="sidenav d-flex flex-column align-items-start">
         <a href=""
            v-for="(item, k) in menuItems"
-           class="sidenav-item"
+           class="sidenav-item d-flex"
            :class="{'active': item.id == activeMenu}"
            :key="k"
            @click.prevent="menuClick(item)"
-        >0{{ item.id }}. {{ item.name }}</a>
+        ><span>0{{ item.id }}. </span><span class="sidenav-item-txt">{{ item.name }}</span></a>
     </div>
 </template>
 
@@ -25,7 +25,6 @@ export default {
         },
         activeMenu(val) {
             let url = this.menuItems.find(e => e.id == val)?.funcName;
-            console.log('111', this.$route, url);
             if (this.$route?.name !== url) this.$router.push({ name: url });
         },
     },
@@ -46,8 +45,7 @@ export default {
 
 .sidenav {
     height: 100%;
-    width: 260px;
-    //position: fixed;
+    width: 220px;
     z-index: 1;
     top: 80px;
     right: 0;
@@ -55,10 +53,15 @@ export default {
     padding-top: 20px;
     &-item {
         display: inline-block;
-        padding-top: 15px;
+        padding-bottom: 30px;
         text-transform: uppercase;
-        &.active {
+        &.active span{
             color: $color-primary;
+        }
+        &-txt {
+            display: inline-block;
+            text-align: left;
+            width: 100px;
         }
     }
 }

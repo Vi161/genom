@@ -52,7 +52,7 @@
             <div class="block-bottom">
                 <div class="block-bottom-txt-wrap d-flex">
                     <div class="block-bottom-txt block-bottom-txt1">Cкорость разработки ПО аналитиком посредством конструктора сопоставима со скорость описания детальных требований</div>
-                    <div class="block-bottom-txt block-bottom-txt2">Автоматически генерируемый код стабилен и не нуждается в тестировании за исключением проверки бизнес требований</div>
+                    <div class="block-bottom-txt block-bottom-txt2">Автоматически генерируемый код стабилен и не нуждается<br> в тестировании за исключением проверки бизнес требований</div>
                     <div class="block-bottom-txt block-bottom-txt3">“Геном” публикует веб-страницы автоматически и практически не нуждается в поддержке</div>
                 </div>
                 <div class="line1"></div>
