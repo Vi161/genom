@@ -34,7 +34,7 @@ export default {
     },
     methods: {
         copy() {
-            window.navigator.clipboard.writeText(this.mail);
+            window.navigator.clipboard.writeText('mail@genome-it.ru');
         }
     }
 };
