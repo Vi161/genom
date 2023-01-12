@@ -1,6 +1,6 @@
 <template>
     <div class="page-content page5">
-        <h1 class="title-top color-primary">[ Разработчики Генома ]</h1>
+        <h1 class="title-top color-primary">[ Разработчики Системного Генома ]</h1>
         <div class="text-block-wrap">
             <div class="text-block d-flex">
                 <span class="color-primary">></span>

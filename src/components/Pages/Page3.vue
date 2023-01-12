@@ -3,7 +3,7 @@
         <h1 class="title-top color-primary">[ Применение ]</h1>
         <div class="block-wrap d-flex flex-row">
             <div class="block">
-                <h2 class="title-top title-block color-primary">> Аналитика Генома</h2>
+                <h2 class="title-top title-block color-primary">> Аналитика Системного Генома</h2>
                 <div class="txt-block d-flex align-items-start">
                     <img svg-inline src="@/assets/img/ico3-1.svg" />
                     <p>Учет (складской, налоговый, бухгалтерский, управленческий, строительный, государственный, муниципальный и т.д.)</p>
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="block block2">
-                <h2 class="title-top title-block color-primary">> Разработчики Генома</h2>
+                <h2 class="title-top title-block color-primary">> Разработчики Системного Генома</h2>
                 <div class="txt-block d-flex align-items-start">
                     <img svg-inline src="@/assets/img/ico3-5.svg" />
                     <p>Расширенные логика<br> и вычисления</p>

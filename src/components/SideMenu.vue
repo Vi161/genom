@@ -1,6 +1,6 @@
 <template>
     <div class="sidenav d-flex flex-column align-items-start">
-        <a href=""
+        <a :href="`/${item.funcName}`"
            v-for="(item, k) in menuItems"
            class="sidenav-item d-flex"
            :class="{'active': item.id == activeMenu}"

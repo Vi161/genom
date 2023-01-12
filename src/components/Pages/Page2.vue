@@ -4,7 +4,7 @@
         <div class="text-block-wrap">
             <div class="text-block d-flex ">
                 <span class="color-primary">></span>
-                <p>Разработка ПО с помощью Генома значительно сокращает,<br> либо исключает все шаги процесса</p>
+                <p>Разработка ПО с помощью Системного Генома значительно сокращает,<br> либо исключает все шаги процесса</p>
             </div>
             <div class="text-block d-flex">
                 <span class="color-primary">></span>
@@ -18,7 +18,7 @@
                 <p class="txt-top"></p>
                 <p class="txt-top uppercase">1.Аналитик</p>
                 <p class="txt-top"></p>
-                <p class="txt-top uppercase">2.Геном</p>
+                <p class="txt-top uppercase">2.Системный Геном</p>
             </div>
             <div class="d-flex justify-content-center">
                 <div class="top-line"></div>
@@ -53,7 +53,7 @@
                 <div class="block-bottom-txt-wrap d-flex">
                     <div class="block-bottom-txt block-bottom-txt1">Cкорость разработки ПО аналитиком посредством конструктора сопоставима со скорость описания детальных требований</div>
                     <div class="block-bottom-txt block-bottom-txt2">Автоматически генерируемый код стабилен и не нуждается<br> в тестировании за исключением проверки бизнес требований</div>
-                    <div class="block-bottom-txt block-bottom-txt3">“Геном” публикует веб-страницы автоматически и практически не нуждается в поддержке</div>
+                    <div class="block-bottom-txt block-bottom-txt3">Системный Геном публикует веб-страницы автоматически и практически не нуждается в поддержке</div>
                 </div>
                 <div class="line1"></div>
                 <div class="line2"></div>

@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         <h1 class="title1">
-            Облачная <span class="color-primary">Low-Code</span> платформа Геном
+            Облачная <span class="color-primary">Low-Code</span> платформа Системный Геном
         </h1>
         <div class="dash-border"></div>
         <h2 class="title2 color-primary">
@@ -21,7 +21,7 @@ export default {
 
     .main {
         .title1 {
-            width: 930px;
+            width: 1430px;
 
             font-family: 'IBM Plex Mono Bold';
             font-style: normal;

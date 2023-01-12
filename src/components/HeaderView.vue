@@ -4,7 +4,7 @@
             <a class="contacts" href="#" @click.prevent="modalOpened = true">Контакты</a>
         </div>
         <div class="d-flex align-items-center justify-content-center">
-            <img svg-inline src="@/assets/img/logo.svg" />
+            <img svg-inline class="logo" src="@/assets/img/logo.svg" />
         </div>
         <div class="d-flex align-items-center justify-content-end">
             <span class="organization">ООО «Геном Информационные Технологии»</span>
@@ -46,6 +46,9 @@ export default {
         font-family: PTMono, sans-serif;
         font-size: 16px;
         grid-template-columns: 1fr 1fr 1fr;
+        .logo {
+            height: 37px;
+        }
     }
     .modal {
         position: fixed;
